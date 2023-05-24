@@ -377,6 +377,8 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 
   .imgHeader{
     height: 750px;
+        filter: opacity(50%);
+        -webkit-filter: opacity(50%);
   }
   h1{
     margin-left: 40%;
@@ -425,6 +427,7 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
   width: auto;
   will-change: transform,opacity;
   z-index: 0;
+  
 }
 
 .button-17:hover {
@@ -461,6 +464,8 @@ nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-
 .button-17:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
+
+
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
